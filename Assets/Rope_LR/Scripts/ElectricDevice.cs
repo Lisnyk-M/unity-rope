@@ -11,8 +11,6 @@ public class Contact
 public abstract class ElectricDevice : MonoBehaviour
 {
     public Contact[] _contacts;
-    //public Contact firstContact;
-    //public Contact secondContact;
     public float current;
     public float resistance;
     public abstract void Connect(ElectricDevice target, int selfContact, int targetContact);
